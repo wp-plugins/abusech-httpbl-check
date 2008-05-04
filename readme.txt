@@ -14,6 +14,7 @@ The RBL blocks access from ips which are:
 - Hijacked webserver or Scanning drones
 - Source of referer Spam
 
+You can finde a statistical breakdown for httpbl.abuse.ch here: http://dnsbl.abuse.ch/httpbl/stats.php
 See http://dnsbl.abuse.ch/faq.php#about_httpbl for more information.
 
 == Installation ==
@@ -22,9 +23,6 @@ See http://dnsbl.abuse.ch/faq.php#about_httpbl for more information.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 You can check the plugin by using the following link http://www.abuse.ch/httpbl/test.php
-
-== Frequently Asked Questions ==
-
 
 == Screenshots ==
 
