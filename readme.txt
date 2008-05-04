@@ -2,7 +2,8 @@
 Contributors: admin [at] abuse {dot} ch
 Tags: blacklist, rbl, dnsbl, check, stop abusers, lookup, admin
 Stable tag: 1.2
-
+Requires at least: 2.0.2
+Tested up to: 2.5.1
 Check if a visitor is listed on httpbl.abuse.ch, see http://dnsbl.abuse.ch/faq.php#about_httpbl for more information
 
 == Description ==
