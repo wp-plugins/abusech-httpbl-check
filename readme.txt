@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: admin [at] abuse {dot} ch
-Tags: blacklist, rbl, dnsbl, check, stop abusers, lookup
-Stable tag: 1.3
+Tags: blacklist, rbl, dnsbl, check, stop abusers, lookup, admin
+Stable tag: 1.2
 
 Check if a visitor is listed on httpbl.abuse.ch, see http://dnsbl.abuse.ch/faq.php#about_httpbl for more information
 
