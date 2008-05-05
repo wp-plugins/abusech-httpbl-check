@@ -26,6 +26,15 @@ See http://dnsbl.abuse.ch/faq.php#about_httpbl for more information.
 
 You can check the plugin by using the following link http://www.abuse.ch/httpbl/test.php
 
+== Frequently Asked Questions ==
+
+= Does this plugin protect my blog against Comment Spam? =
+
+No, httpBL.abuse.ch protects you only from ips which are:
+- Known source of Hacking activities / Script Kiddie
+- Hijacked webserver or Scanning drones
+- Source of referer Spam
+
 == Screenshots ==
 
 1. If the ip-address of one of your visitors is blacklisted on httpbl.abuse.ch, he will receive an error message.
