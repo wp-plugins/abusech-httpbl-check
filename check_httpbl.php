@@ -2,7 +2,7 @@
 /*
 Plugin Name: abuse.ch httpBL check
 Version: 1.2
-Plugin URI: http://dnsbl.abuse.ch
+Plugin URI: http://wordpress.org/extend/plugins/abusech-httpbl-check/
 Description: Check if a visitor is listed on httpbl.abuse.ch, see http://dnsbl.abuse.ch/faq.php#about_httpbl for more information
 Author: admin [at]a abuse {dot} ch
 Author URI: http://www.abuse.ch
