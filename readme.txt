@@ -23,7 +23,7 @@ See http://dnsbl.abuse.ch/faq.php#about_httpbl for more information.
 1. Upload `check_httpbl.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-You can check the plugin by using the following link http://www.abuse.ch/httpbl/test.php
+You can check the plugin by using the following link http://www.abuse.ch/httpbl/test.php .
 
 == Screenshots ==
 
