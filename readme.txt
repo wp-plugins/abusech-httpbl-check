@@ -31,6 +31,7 @@ You can check the plugin by using the following link http://www.abuse.ch/httpbl/
 = Does this plugin protect my blog against Comment Spam? =
 
 No, httpBL.abuse.ch protects you only from ips which are:
+
 - Known source of Hacking activities / Script Kiddie
 - Hijacked webserver or Scanning drones
 - Source of referer Spam
