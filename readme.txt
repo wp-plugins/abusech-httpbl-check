@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== abuse.ch httpBL check ===
 Contributors: admin [at] abuse {dot} ch
 Tags: blacklist, rbl, dnsbl, check, stop abusers, lookup, admin
 Stable tag: 1.2
