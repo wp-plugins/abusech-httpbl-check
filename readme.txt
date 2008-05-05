@@ -4,7 +4,7 @@ Tags: blacklist, rbl, dnsbl, check, stop abusers, lookup, admin
 Stable tag: 1.2
 Requires at least: 2.0.2
 Tested up to: 2.5.1
-Check if a visitor is listed on httpbl.abuse.ch, see http://dnsbl.abuse.ch/faq.php#about_httpbl for more information
+Check if a visitor is listed on httpbl.abuse.ch, see http://dnsbl.abuse.ch/faq.php#about_httpbl for more information.
 
 == Description ==
 
@@ -27,4 +27,4 @@ You can check the plugin by using the following link http://www.abuse.ch/httpbl/
 
 == Screenshots ==
 
-1. If the ip-address of one of your visitors is blacklisted on httpbl.abuse.ch, he will receive an error message.
+1. If the ip-address of one of your visitors is blacklisted on httpbl.abuse.ch, he will receive an error message
