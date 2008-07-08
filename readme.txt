@@ -16,27 +16,27 @@ The RBL blocks access from ips which are:
 - Hijacked webserver or scanning drones
 - Source of referer Spam
 
-You can finde a statistical breakdown for httpBL.abuse.ch here: http://dnsbl.abuse.ch/httpbl/stats.php.
-For more information just take a lookt at http://dnsbl.abuse.ch/faq.php#about_httpbl.
+You can finde a statistical breakdown for httpBL.abuse.ch <a href="http://dnsbl.abuse.ch/httpbl/stats.php" target="_blank" title="httpBL.abuse.ch statistic">here</a>.
+For more information just take a look at the <a href="http://dnsbl.abuse.ch/faq.php#about_httpbl" target="_blank" title="httpBL.abuse.ch FAQ">FAQ</a>.
 
 == Changelog ==
 
 = 1.3 =
--Corrected some typing errors in check_httpbl.php
--Changed the message which a visitor receive, when he is listed at httpBL.abuse.ch. Now the message contains a link to the lookup form at http://dnsbl.abuse.ch/check.php where the visitor will find reason and time of the listing.
+- Corrected some typing errors in check_httpbl.php
+- Changed the message which a visitor receive, when he is listed at httpBL.abuse.ch. Now the message contains a link to the lookup form at http://dnsbl.abuse.ch/check.php where the visitor will find reason and time of the listing.
 
 == Installation ==
 
 1. Upload `check_httpbl.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-You can check whether the plugin works by using the following link http://www.abuse.ch/httpbl/test.php
+You can check whether the plugin works by using the following link: <a href="http://www.abuse.ch/httpbl/test.php" target="_blank" title"httpBL.abuse.ch configuration test">configuration test</a>.
 
 Normaly, the Plug-In creates a logfile called `httpbl.log` in your root directory.
 If you want to disable the logging option just edit the file `check_httpbl.php` and change the option `$logging` from `1` to `0`:
 
-Logging enabled: `$logging = "1";`
-Logging disabled: `$logging = "0";`
+- Logging enabled: `$logging = "1";`
+- Logging disabled: `$logging = "0";`
 
 == Frequently Asked Questions ==
 
