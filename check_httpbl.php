@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: abuse.ch httpBL check
-Version: 1.3
+Version: 1.4
 Plugin URI: http://wordpress.org/extend/plugins/abusech-httpbl-check/
 Description: Check if a visitor is listed on httpBL.abuse.ch, see http://dnsbl.abuse.ch/faq.php#about_httpbl for more information
 Author: admin [at]a abuse {dot} ch
@@ -16,7 +16,7 @@ function check_for_httpbl($logging)
 
 	$time = date('M-d-Y H:i:s');
 	$ipaddress = $_SERVER['REMOTE_ADDR'];
-	$hostname = ((gethostbyaddr($ipaddress)==$ipaddress)?"":gethostbyaddr($ipaddress));
+	if ($logging == "1") { $hostname = ((gethostbyaddr($ipaddress)==$ipaddress)?"":gethostbyaddr($ipaddress)); }
 	$rev = array_reverse(explode('.', $ipaddress));
 	$lookup = implode('.', $rev) . '.' . 'httpbl.abuse.ch.';
 	$response = gethostbyname($lookup);
@@ -26,7 +26,7 @@ function check_for_httpbl($logging)
 		<p>Your ip-address is banned because it is blacklisted on httpBL.abuse.ch. It was previous identified as source of hacking activities.<br />
 		You can look up your <a href='http://dnsbl.abuse.ch/lookup.php?IPAddress=$ipaddress' target='_blank'>ip address ($ipaddress)</a> for more information.</p>"; exit();}
 	if ($response == "127.0.0.3") { 
-	if ($logging == "1") { logit($time,$ipaddress,$hostname,$responses); }
+	if ($logging == "1") { logit($time,$ipaddress,$hostname,$response); }
 		echo "<h1>Your ip-address ($ipaddress) is banned </h1><em>(reason: Hijacked webserver / Scanning drone)</em><br>
 		<p>Your ip-address is banned because it is blacklisted on httpBL.abuse.ch. It was previous identified as a hijacked webserver or scanning drone.</br>
 		You can look up your <a href='http://dnsbl.abuse.ch/lookup.php?IPAddress=$ipaddress' target='_blank'>ip address ($ipaddress)</a> for more information.</p>"; exit();}
