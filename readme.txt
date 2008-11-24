@@ -1,7 +1,7 @@
 === abuse.ch httpBL check ===
 Contributors: admin [at] abuse {dot} ch
 Tags: blacklist, rbl, dnsbl, check, stop abusers, lookup, admin
-Stable tag: 1.3
+Stable tag: 2.0
 Requires at least: 2.0.2
 Tested up to: 2.5.1
 
@@ -20,6 +20,10 @@ You can finde a statistical breakdown for httpBL.abuse.ch <a href="http://dnsbl.
 For more information just take a look at the <a href="http://dnsbl.abuse.ch/faq.php#about_httpbl" target="_blank" title="httpBL.abuse.ch FAQ">FAQ</a>.
 
 == Changelog ==
+
+= 2.0 =
+- Fixed an error in the logging function ($response instead of $responses)
+- gethostbyaddr will now only be executed when logging is enabled
 
 = 1.3 =
 - Corrected some typing errors in check_httpbl.php
